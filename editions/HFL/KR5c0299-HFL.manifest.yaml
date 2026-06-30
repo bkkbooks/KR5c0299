@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR5c0299/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0299/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 石藥爾雅
+  date: '2015-08-29 00:55:43.602400'
+  source:
+    repository: kanripo
+    path: KR5c0299
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0299_000-HFL.yaml, hash: 'sha256:07f61e51df140fa5bcb116de4d2fe1935a676de98745b1fea0d2a091fe0cbc7b'}
+  - {seq: 1, filename: KR5c0299_001-HFL.yaml, hash: 'sha256:76250ec41a54f53c4b096b6c06765ed3f6279aad8242bb091ebd81e796c2c0df'}
+  - {seq: 2, filename: KR5c0299_002-HFL.yaml, hash: 'sha256:fa81fc8d19b3cfda2a3e6d34acbed7953915e50a539014561d662c7c892e3a4b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0299_000-HFL.markers.yaml, hash: 'sha256:7e7c2184b6df965b099c2132defb6a9967618fb1db464e8a0c2e4bb32abaaa52'}
+  - {seq: 1, role: markers, filename: assets/KR5c0299_001-HFL.markers.yaml, hash: 'sha256:a8860085c43033eb22a92a0144bb73bb08de244ab46c84bad17e2941def7038c'}
+  - {seq: 2, role: markers, filename: assets/KR5c0299_002-HFL.markers.yaml, hash: 'sha256:417e88043d23e71ff473ab16652702d0912adc8600c30b3eca349509dbd91a17'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0299_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 300
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5c0299_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 2935
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0299_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 2291
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:1bb848f83b4914ea50b9b859423276881928648552740dab6beb31bd54f2225a

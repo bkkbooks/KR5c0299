@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR5c0299/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0299/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 石藥爾雅
+  date: '2015-08-29 00:55:43.602400'
+  source:
+    repository: kanripo
+    path: KR5c0299
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0299_000-ZTDZ.yaml, hash: 'sha256:f3de9c09f2a3cb935ecd91e18c05a381da79a2d924fcb01625f96577ccf3fded'}
+  - {seq: 1, filename: KR5c0299_001-ZTDZ.yaml, hash: 'sha256:39fe049e488efb6a74c92849837f600fa56ef9e83a10a41fe65471f157dc162c'}
+  - {seq: 2, filename: KR5c0299_002-ZTDZ.yaml, hash: 'sha256:a97a2e7c4ac03730e8663cc861a10a3b8ae792574c184de9433dea125fa8144a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0299_000-ZTDZ.markers.yaml, hash: 'sha256:9c315a81bf1b0f1259e78f4ef153e9802c5f24aa65a196b98621a84757a42ae7'}
+  - {seq: 1, role: markers, filename: assets/KR5c0299_001-ZTDZ.markers.yaml, hash: 'sha256:f246ac0ffaf71103df12ca225ec60bd67acd3323e011bfd4e24cf34d0ae5e9e5'}
+  - {seq: 2, role: markers, filename: assets/KR5c0299_002-ZTDZ.markers.yaml, hash: 'sha256:d07a9491e850e64fdf5d41728a3db9cf284b35f09bf9754597347b011b1f7356'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0299_SJB_000-190061c
+    span:
+    - body
+    - 0
+    - 300
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5c0299_SJB_001-190062a
+    span:
+    - body
+    - 0
+    - 2935
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0299_SJB_002-190064a
+    span:
+    - body
+    - 0
+    - 2291
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:33b1315bae643ceb280697dce123c9c82b502bc6d2c01d70d72b58f4c550fd0f
